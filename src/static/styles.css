@@ -16,6 +16,7 @@ body {
 }
 
 header {
+  position: relative;
   text-align: center;
   padding: 20px 0;
   margin-bottom: 30px;
@@ -26,6 +27,12 @@ header {
 
 header h1 {
   margin-bottom: 10px;
+}
+
+header button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
 main {
